@@ -1,12 +1,36 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+let x = 3;
+let y = 10;
+let squareTheNumber = 4;
+let greeting = 'hello';
+let firstName = 'Bogdan';
+let calling = 'ringing';
 
+function double () {
+  x = x * 2;
+}
 
+function triple () {
+  y = y * 3;
+}
 
+function square () {
+  squareTheNumber = squareTheNumber ** 2;
+}
 
- 
+function beingNice () {
+  greeting = greeting + ' ' + firstName;
+}
 
+function fullName () {
+  firstName = 'not found';
+}
+
+function phoneCall () {
+  calling = 'call ended';
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
